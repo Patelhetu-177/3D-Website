@@ -17,8 +17,8 @@ import {
   bootstrap,
   express,
   news,
-  clock,
-  todo,
+  namaste,
+  musicera,
   threejs,
 
 } from "../assets";
@@ -40,15 +40,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "MERN Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Competitive Programmer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Fullstack Developer",
     icon: backend,
   },
   {
@@ -114,7 +114,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Web Developer",
     icon: mongodb,
     iconBg: "#383E56",
     date: "<<<-------------",
@@ -126,23 +126,23 @@ const experiences = [
     ],
   },
   {
-    title: "backend Developer",
+    title: "MERN Stack Developer",
     icon: express,
     iconBg: "#E6DEDD",
     date: "------------->>>",
     points: [
-      "I am specialize in designing, implementing, and maintaining the server-side logic of web applications, ensuring smooth communication between the frontend and databases while handling business logic and data processing..",
-      "Proficient in server-side programming languages such as Python and Node.js, I create scalable and secure APIs, manage databases, and optimize server performance to enhance the overall functionality and responsiveness of web applications..",
+      "As a MERN Stack Developer, I am proficient in crafting dynamic and scalable web applications from inception to deployment. My expertise lies in seamlessly integrating MongoDB, Express.js, React, and Node.js to deliver exceptional user experiences.",
+      "Leveraging the power of JavaScript across the entire stack, I deliver efficient, scalable, and maintainable web applications. My passion for cutting-edge technologies and problem-solving drives me to create innovative solutions that exceed expectations."
     ],
   },
   {
-    title: "Web Developer",
+    title: "Competitive Programmer",
     icon: reactjs,
     iconBg: "#383E56",
     date: "<<<-------------",
     points: [
-      "I am specialize in designing and building websites, using a combination of HTML, CSS, and JavaScript to create interactive and visually appealing user interfaces.",
-      "Proficient in both frontend and backend technologies, i am currently work on client-side scripting, server-side scripting, and database management to ensure the seamless functioning of web applications.",
+      "I am a competitive programmer with a passion for solving complex algorithmic problems. My expertise lies in designing efficient algorithms, implementing optimal data structures, and writing clean, high-performance code.",
+      "I thrive on the adrenaline rush of coding under pressure, constantly pushing the boundaries of my problem-solving skills. With a deep understanding of mathematical concepts and a knack for logical reasoning, I excel in tackling a wide range of challenges."
     ],
   },
   {
@@ -164,24 +164,24 @@ const testimonials = [
     name: "Elon Musk",
     designation: "CEO",
     company: "Tesla, spacex",
-  
+
   },
   {
     testimonial:
-      
-    "Mark Zuckerberg's perspective on technology can be encapsulated as utilizing connectivity and social platforms to bring people together and create a more open and connected world.",
+
+      "Mark Zuckerberg's perspective on technology can be encapsulated as utilizing connectivity and social platforms to bring people together and create a more open and connected world.",
     name: "Mark Zuckerberg",
     designation: "CEO",
     company: "meta",
-   
+
   },
   {
     testimonial:
-    "Bill Gates' perspective on technology is centered around the idea of using innovation to empower individuals and improve lives, with a focus on addressing global challenges .",
+      "Bill Gates' perspective on technology is centered around the idea of using innovation to empower individuals and improve lives, with a focus on addressing global challenges .",
     name: "Bill gates",
     designation: "CEO",
     company: "Apple",
-    
+
   },
 ];
 
@@ -208,47 +208,47 @@ const projects = [
     source_code_link: "https://github.com/Patelhetu-177/News-App",
   },
   {
-    name: "Todo-List",
+    name: "Namaste",
     description:
-      "Web application that enables users to manages the daily todos, Develop and implement a task prioritization feature to enhance productivity.",
+      "Namaste is a transformative chat app designed to cultivate peace and connection in your digital world. Built with the powerful MERN stack.",
     tags: [
       {
-        name: "Three.js",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "React",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: todo,
-    source_code_link: "https://github.com/Patelhetu-177/todo-list",
+    image: namaste,
+    source_code_link: "https://github.com/Patelhetu-177/Namaste",
   },
   {
-    name: "Alarm-Clock",
+    name: "MusicEra",
     description:
-      "Design a user-friendly alarm clock app with customizable features for snooze intervals. Incorporate a visually appealing interface with a simple set-and-forget functionality.",
+      "I'm excited to introduce MusicEra, a cutting-edge frontend website designed to elevate your musical journey.MusicEra offers an intuitive and seamless user experience.",
     tags: [
       {
-        name: "Javascript",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
 
       },
       {
-        name: "HTML",
+        name: "shadcn",
         color: "pink-text-gradient",
       },
     ],
-    image: clock,
-    source_code_link: "https://github.com/Patelhetu-177/Alarm-Clock",
+    image: musicera,
+    source_code_link: "https://github.com/Patelhetu-177/musicera",
   },
 ];
 

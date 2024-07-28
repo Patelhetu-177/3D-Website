@@ -24,8 +24,8 @@ import threejs from "./tech/threejs.svg";
 import express from "./tech/express.png";
 
 import news from "./news.png";
-import clock from "./clock.png";
-import todo from "./todo.png";
+import musicera from "./musicera.png"
+import namaste from "./namaste.png"
 
 export {
   logo,
@@ -51,7 +51,6 @@ export {
   threejs,
   express,
   news,
-  clock,
-  todo,
- 
+  namaste,
+  musicera,
 };
